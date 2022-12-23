@@ -7,9 +7,6 @@
 
 #include "uADC.h"
 
-
-#include "stm32f4xx_hal.h"
-
 #ifdef MultiChannel
 static void AdcChannelSelect(ADC_HandleTypeDef* hadc,uint32_t Channel) {
 	ADC_ChannelConfTypeDef sConfig = { 0 };
